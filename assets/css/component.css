@@ -1,0 +1,118 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville';
+
+.grid li {
+	display: inline-block;
+	width: 360px;
+	text-align: center;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid .poton {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	color: black;
+	
+}
+
+.grid .colorline-2 {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.grid .poton h3 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 18px;
+	color: #313131;
+	font-family: 'Poppins', sans-serif;
+	line-height: 65px;
+}
+
+ul {
+	padding: 0;
+}
+
+.colorline-2 {
+	position: absolute;
+	width: 360px;
+}
+
+.rd, .gr, .pk, .org {
+ 	width: 90px;
+ 	height: 3px;
+ 	float: left;
+ 	margin: 0;
+ 	padding: 0;
+
+ } 
+
+.rd {
+	background: #fc5f45;
+}
+
+.gr {
+	background: #38c695;	
+}
+
+.pk {
+	background: #b27cf5;
+}
+
+.org {
+	background: #feb960;
+}
+
+.cs-style-3 figure {
+	overflow: hidden;
+}
+
+.cs-style-3 figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+
+
+.cs-style-3 .poton {
+	height: 65px;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.cs-style-3 figure:hover .poton,
+.cs-style-3 figure .cs-hover .poton {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
